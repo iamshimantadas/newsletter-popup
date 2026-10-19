@@ -1,0 +1,13 @@
+{
+    "name": "microcodes/newsletter-popup",
+    "description": "WordPress newsletter popup plugin with email validation",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": ">=7.4",
+        "egulias/email-validator": "^3.2 || ^4.0"
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
